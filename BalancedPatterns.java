@@ -14,7 +14,6 @@ public class BalancedPatterns {
 
         for (int i = 0; i < b.length(); i++) {
             char cur = b.charAt(i);
-
             if (opening(cur)) {
                 stack.add(String.valueOf(cur));
             } else {
