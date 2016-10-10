@@ -5,7 +5,6 @@ import java.util.Stack;
 
 
 public class BalancedPatterns {
-
     public static boolean isBalanced(String expression) {
         return eatTillEnd(expression);
     }
